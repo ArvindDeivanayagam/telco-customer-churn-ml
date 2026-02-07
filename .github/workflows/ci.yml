@@ -24,7 +24,5 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        env:
-          MLFLOW_TRACKING_URI: file:./mlruns
-        run: |
-          pytest -q
+        run: PYTHONPATH=. pytest -q
+
