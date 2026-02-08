@@ -10,3 +10,9 @@ joblib
 great-expectations
 pytest
 xgboost
+optuna
+seaborn
+matplotlib
+statsmodels
+lightgbm
+gradio
